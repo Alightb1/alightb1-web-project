@@ -1,0 +1,76 @@
+body {
+    background-color: lightblue;
+}
+
+h1
+{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 
+{
+    font-size: 30px;
+    font-style: bold;
+}
+
+h3
+{
+    font-size: 20px;
+    font-style: bold;
+}
+
+.page-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+}
+
+
+.text-section {
+    width: 60%;
+}
+
+
+.image-section {
+    width: 35%;
+    text-align: right;
+}
+
+.image-section img {
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin-bottom: 15px;
+    border: 3px solid black;
+}
+
+
+.back-home {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: larger;
+    text-decoration: none;
+    
+
+}
+
+.back-home:hover {
+    
+    text-decoration: underline;
+    transform: scale(1.15);
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
