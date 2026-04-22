@@ -4,20 +4,29 @@ body {
 
 h1
 {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2F4F4F;
 }
 
 h2 
 {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 30px;
     font-style: bold;
+    color: #556B2F; 
 }
 
 h3
 {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 20px;
     font-style: bold;
+    color: #8F9779;
 }
 
 .page-layout {
@@ -33,6 +42,11 @@ h3
     width: 60%;
 }
 
+p
+{
+    color: #2e2e2e;
+    margin-bottom: 20px;
+}
 
 .image-section {
     width: 35%;
@@ -44,7 +58,8 @@ h3
     height: 250px;
     display: block;
     margin-bottom: 15px;
-    border: 3px solid black;
+    border: 3px solid #2F4F4F;
+    
 }
 
 
