@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (message) {
             message.style.display = "block";
-            message.textContent = "Thanks for posting, " + name + "!";
+            message.textContent = "Thanks for your submission, " + name + "!";
 
             setTimeout(() => {
                 message.style.display = "none";
