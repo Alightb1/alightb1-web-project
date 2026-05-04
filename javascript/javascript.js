@@ -21,7 +21,7 @@ document.getElementById("Gilabut").onclick = () => {
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("visitorform");
     const posts = document.getElementById("visitorforum");
-    const message = document.getElementById("message"); // Only if you add it
+    const message = document.getElementById("message"); 
 
     form.addEventListener("submit", (e) => {
         e.preventDefault();
